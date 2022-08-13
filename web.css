@@ -1,0 +1,99 @@
+.text{
+    text-align: center;
+    margin-top: -26%;
+}
+
+.art{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #ff4742;
+    color: #fff;
+    background-color: #ff4742;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 4px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
+    font-weight: 800;
+    font-size: 16px;
+    height: 42px;
+}
+
+.art:hover{
+    background: 0 0;
+    color:#ff4742;
+}
+
+html, body{
+    font-family: 'Poppins', sans-serif;
+    color: #222
+}
+
+.navbar{
+    padding: .8rem;
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+.social a{
+    font-size: 4.5em;
+    padding: 4rem;
+}
+
+.fa-facebook{
+    color: #3b5998
+}
+
+.fa-twitter{
+    color: #00aced;
+}
+
+.fa-google{
+    color: #4285f4;
+}
+
+.fa-instagram{
+    color: #8134af;
+}
+
+.fa-whatsapp{
+    color: #25d366;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-whatsapp:hover,
+.fa-google:hover {
+    color: #d5d5d5;
+}
+
+.social{
+    margin-bottom: 60px;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+.cartext{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 250px;
+    color: white;
+}
+.cartext h1{
+    font-size: 100px;
+}
+
+.navbar{
+    box-sizing: border-box;
+    border-bottom: 2px solid #fff;
+}
